@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <html lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+        <header><h1>&nbsp;</h1></header>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <dl>
+            <div id="rsq"></div>
+            <dd>         
+                <p id="About">
+                    <img src="img/about.svg" alt="about" id="About" onclick="openIframe('About.html')" class="active-on-click">
+                    </a>
+                </p>
+            </dd>
+            <dd>
+                    <p id="Resume">
+                    <img src="img/resume.svg" id="Resume"  onclick="openIframe('resume.html')" class="active-on-click">
+                    </a>
+                </p>
+            </dd>
+        </dl>
+        <div class="LColumn">
+            <div id="profile">
+                <img src="img/photo-1.png" alt="Profile pic" id="Profile">
+            </div>
+            <div id="rbc"></div>
+            <div id="rgc"></div>
+            <div class="socials">
+                <h2>&nbsp; Akash P</h2>
+                <h4>&nbsp; Student</h4>
+                <button id="li" onclick=window.open('https://www.linkedin.com/in/akashpalani/','_blank')>
+                    <img src="img/linkedin.png" onmouseover="this.src='img/linkedinh.png';" onmouseout="this.src='img/linkedin.png';" alt="Linkedin" id="Linkedin">
+                </button>
+                <button id="gh" onclick=window.open('https://www.github.com/Akash-Dhoni-Krishnan','_blank')>
+                    <img src='img/github.png' onmouseover="this.src='img/githubh.png';" onmouseout="this.src='img/github.png';" alt="Github" id="Github">
+                </button>
+                <button id="in" onclick=window.open('https://www.instagram.com/eternal_blue_akash/','_blank')>
+                    <img src="img/instagram.png" onmouseover="this.src='img/instagramh.png';" onmouseout="this.src='img/instagram.png';" alt="Instagram" id="Instagram">
+                </button>
+            </div>
+            <div class="contacts">
+                <p id="Phone">
+                    <button id="ph" onclick="location.href='tel:+917871242646';"><img src="img/mobile.png" alt="Phone" id="Phone"></button> +91&nbsp;7871242646
+                </p>
+                <p id="Email">
+                    <button id="mail" onclick="location.href='mailto:akashpalani1616@gmail.com';"><img src="img/mail.png" alt="Email" id="Email"></button>akashpalani1616@gmail.com
+                 <p id="Location">
+                    <button id="loc"><img src="img/location.png" alt="Location" id="Location"></button> Chennai,&nbsp;Tamil&nbsp;Nadu,&nbsp;India
+                </p>
+            </div>
+        </div>
+    <div>
+        <iframe id="iframe" src="About.html" scrolling="no"></iframe>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+body{
+    font-family: "Quicksand","Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position:absolute;
+    left:30px;
+    top:10px;
+}
+
+h1{
+    font-family:"Work Sans";
+    font-weight:600;
+}
+
+#head{
+    position:relative;
+    top:-7px;
+}
+
+#head1{
+    position:relative;
+    top:-27px;
+}
+
+p{
+    font-family:"Quicksand";
+    font-weight:500;
+}
+
+.footer{
+    font-family:"Work Sans";
+    font-weight:800;
+}
+
+img#Coding,img#WebDev,img#GameTest{
+    width: 50px;
+    height:50px;
+    background:transparent;
+}
+
+#boxc1,#boxc2,#boxc3{
+    width:370px;
+    height:150px;
+    position:absolute;
+    border-radius: 10px;
+    padding:15px 0px 2px 10px
+}
+
+#boxc1{
+    left:30px;
+    top:225px;
+    background:rgba(0, 106, 255,0.2);
+}
+
+#boxc2{
+    left:445px;
+    top:225px;
+    background:rgba(255, 0, 47,0.2);
+}
+
+#boxc3{
+    left:235px;
+    top:425px;
+    background:rgba(0, 255, 157,0.2);
+}
+
+.footer{
+    position:absolute;
+    margin-top: 370px;
+    margin-bottom: 10px;
+    margin-left:175px;
+}
+
+#bline{
+    position:absolute;
+    height:3px;
+    width:200px;
+    background:blue;
+    border-radius:2px;
+    top:57px;
+    left:110px;
+}

@@ -1,0 +1,209 @@
+body{
+    background-image:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    font-family: "Quicksand","Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2,h4{
+    background: transparent;
+    font-family:"Work Sans";
+    font-weight:600;
+}
+p{
+    font-family:"Quicksand";
+    font-weight:700;
+}
+
+dl{
+    position:absolute;
+    right:10px;
+    top:400px;
+    background:transparent;
+}
+
+#rsq{
+    margin-left:-27px;
+    border-radius: 15px;
+    position:absolute;
+    width:135px;
+    height:251px;
+    background:white;
+}
+
+img{
+    background:transparent;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+img#Resume, img#About {
+    background-color: rgb(241, 241, 241);
+    border: none;
+    padding: 20px 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height:60px;
+    width:60px;
+    transform: translateX(-50%);
+}
+
+img#Resume:hover, img#About:hover{
+    background: #0340f8ab;
+}
+
+.active-element{
+    background: #0340f8ab;
+}
+
+img#Profile{
+    height:250px;
+    width:200px;
+    position:relative;
+    top:130px;
+    left:97px;
+    z-index:2;
+    border-radius:20px;
+}
+
+.socials{
+    top: 460;
+    left:72px;
+    width:260px;
+    height:380px;
+    position:absolute;
+    text-align:center;
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    z-index:3;
+}
+
+.contacts{
+    padding-left:7px;
+    top: 625px;
+    left:63px;
+    width:250px;
+    position:absolute;
+    display:block;
+    text-align:center;
+    border-radius:15px;
+    z-index:3;
+}
+
+#phone,#email,#location{
+    display:flex;
+    align-items:center;
+    padding-top:2px;
+    padding-bottom:2px;
+    position:static;
+    text-indent:15px;
+    width:30px;
+    background:transparent;
+}
+
+.contacts p#Phone button#ph:hover,.contacts p#Email button#mail:hover{
+    background:rgba(149, 147, 147, 0.5);
+}
+
+#Instagram,#Github,#Linkedin{
+    align-items:center;
+    padding:2px 2px 2px 2px;
+    width: 32px;
+}
+
+button{
+    align-items:center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    background:white;
+    border:none;
+}
+
+button#loc{
+    cursor:default;
+}
+
+button#in{
+    background: linear-gradient(white, white 50%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+button#gh{
+    background:linear-gradient(white, white 50%, gray 50%, gray);   
+}
+
+button#li{
+    background: linear-gradient(white, white 50%, #5902fb 50%, #5902fb);
+}
+
+button#li:hover,button#gh:hover,button#in:hover{
+    background-position: 100.5% 100.00001%;
+}
+
+button#li,button#gh,button#in{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 7px;
+    background-size: 100% 200%;
+    transition: background .7s;
+}
+
+img#Github:hover,img#Linkedin:hover,img#Instagram:hover{
+    transform: rotateY(720deg);
+    transition: transform .8s;
+}
+
+#iframe{
+    margin-top:280px;
+    margin-left:840px;
+    position: absolute;   
+    transform: translate(-50%, -50%);
+    width: 920px; 
+    height: 700px;
+    border: grey;
+    background:white;
+    border-radius:10px;
+}
+
+div#rbc{
+        position: absolute;
+        height:246px;
+        width: 252px;
+        margin-left:52px;
+        margin-top:240px;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        background:rgb(241, 241, 241);
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+}
+
+div#rgc{
+    position:absolute;
+    top:400px;
+    left:50px;
+    width:311px;
+    height:455px;
+    background: white;
+    align-items: center;
+    border-radius:15px;
+    z-index:1;
+}
