@@ -37,12 +37,14 @@ p{
 }
 
 img#experience{
+    margin-top:-5px;
+    margin-left:5px;
     width: 50px;
     height:50px;
 }
 
 img#education{
-    top:20px;
+    margin-top:10px;
     width: 60px;
     height: 70px;
 }
@@ -77,9 +79,13 @@ img#education{
 .footer{
     width:500px;
     position:absolute;
-    margin-top: 619px;
+    margin-top: 180px;
     margin-bottom: 10px;
     margin-left:195px;
+}
+
+.footer480{
+    display:none;
 }
 
 #bline{
@@ -119,4 +125,66 @@ img#college{
 img#intern{
     height:50px;
     width:100px;
+}
+
+#h1{
+    margin-top:82px;
+    margin-left:95px;
+}
+
+#h2{
+    margin-top:268px;
+    margin-left:90px;
+}
+
+@media only screen and (max-width: 480px) { 
+    .footer{
+        display:none;
+    }
+
+    #head1{
+        margin-left:50px;
+    }
+
+    #head2{
+        margin-top:230px;
+    }
+
+    #h1{
+        margin-left:142px;
+        margin-top:83px;
+    }
+
+    #h2{
+        margin-left:35px;
+        margin-top:477px;
+        text-align: center;
+    }
+
+    #boxc1{
+        margin-top:20px;
+        margin-left:-30px;
+        width:354px;
+    }
+
+    #boxc2{
+        margin-top:220px;
+        margin-left:-445px;
+        width:354px;
+    }
+
+    #boxc3{
+        margin-top:240px;
+        margin-left:-235px;
+        width:354px;
+    }
+
+    .footer480{
+        display:block;
+        margin-top:250px;
+        margin-left:-20px;
+        text-align: center;
+       
+    }
+
 }
