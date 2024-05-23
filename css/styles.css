@@ -219,22 +219,22 @@ div#rgc{
 
     .Lcolumn{
        margin-top:-90px; 
-       margin-left:15px;   
+       margin-left:-2px;   
     }
 
     .socials{
         margin-top:-85px;
-        margin-left:15px;
+        margin-left:-2px;
     }
 
     .contacts{
         margin-top:-95px;
-        margin-left:20px;
+        margin-left:5px;
     }
 
     div#rgc{
         margin-top:-99px;
-        margin-left:16px;
+        margin-left:-1px;
     }
 
     #iframe2{
