@@ -1,3 +1,7 @@
+html{
+    overflow-y:scroll
+}
+
 body{
     background-image:url(bg.jpg);
     background-repeat: no-repeat;
@@ -173,10 +177,16 @@ img#Github:hover,img#Linkedin:hover,img#Instagram:hover{
     border: grey;
     background:white;
     border-radius:10px;
+    scrollbar-width: 0px;
+    scrollbar-color: transparent;
+    overflow-y:scroll;
 }
 
 #iframe2{
     display:none;
+    scrollbar-width:none;
+    scrollbar-color: transparent;
+    overflow-y:scroll;
 }
 
 div#rbc{
@@ -219,30 +229,28 @@ div#rgc{
 
     .Lcolumn{
        margin-top:-90px; 
-       margin-left:-2px;   
+       margin-left:1px;   
     }
 
     .socials{
         margin-top:-85px;
-        margin-left:-2px;
     }
 
     .contacts{
         margin-top:-95px;
-        margin-left:5px;
+        margin-left:7px;
     }
 
     div#rgc{
         margin-top:-99px;
-        margin-left:-1px;
+        margin-left:1px;
     }
 
     #iframe2{
         display:inline-flex;
-        height:970px;
+        height:1900px;
         width:400px;
         margin-top:1570px;
-        margin-left:2px;
         border: grey;
         background:white;
         border-radius:10px;
@@ -252,7 +260,7 @@ div#rgc{
     #iframe{
         width:400px;
         margin-top:1050px;
-        margin-left:202px;
+        margin-left:204px;
         height:860px;
         z-index:1;
     }
