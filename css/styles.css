@@ -12,6 +12,9 @@ body{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    display: flex;
+    flex-grow: 3;
+    flex-direction: column;
 }
 
 h2,h4{
@@ -113,7 +116,7 @@ img#Profile{
     background:transparent;
 }
 
-.contacts p#Phone button#ph:hover,.contacts p#Email button#mail:hover{
+.contacts p#Phone button#ph:hover, .contacts p#Email button#mail:hover{
     background:rgba(149, 147, 147, 0.5);
 }
 
@@ -194,12 +197,12 @@ div#rbc{
         height:246px;
         width: 252px;
         margin-left:52px;
-        margin-top:240px;
+        margin-top:215px;
         padding: 20px;
         border-radius: 10px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+        flex-direction: coloumn;
+        gap: 22px;
         background:rgb(241, 241, 241);
         justify-content: center;
         align-items: center;
@@ -226,10 +229,14 @@ div#rgc{
     dl{
         display: none;
     }
-
+       
     .Lcolumn{
-       margin-top:-90px; 
-       margin-left:1px;   
+        display:flex;
+        flex-direction: column; 
+        flex-grow: 1;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
     }
 
     .socials{
