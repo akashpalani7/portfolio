@@ -39,7 +39,7 @@ dl{
     border-radius: 15px;
     position:absolute;
     width:135px;
-    height:251px;
+    height:370px;
     background:white;
 }
 
@@ -52,7 +52,7 @@ a{
     color:black;
 }
 
-img#Resume, img#About {
+img#Resume, img#About, img#Projects, img#Achievements {
     background-color: rgb(241, 241, 241);
     border: none;
     padding: 20px 25px;
@@ -66,7 +66,7 @@ img#Resume, img#About {
     transform: translateX(-50%);
 }
 
-img#Resume:hover, img#About:hover{
+img#Resume:hover, img#About:hover, img#Projects:hover, img#Achievements:hover {
     background: #0340f8ab;
 }
 
@@ -74,17 +74,17 @@ img#Profile{
     height:250px;
     width:200px;
     position:relative;
-    top:130px;
+    top:90px;
     left:97px;
     z-index:2;
     border-radius:20px;
 }
 
 .socials{
-    top: 460;
+    top: 430px;
     left:72px;
     width:260px;
-    height:380px;
+    height:160px;
     position:absolute;
     text-align:center;
     border-radius:10px;
@@ -95,7 +95,7 @@ img#Profile{
 
 .contacts{
     padding-left:7px;
-    top: 625px;
+    top: 590px;
     left:63px;
     width:250px;
     position:absolute;
@@ -184,18 +184,27 @@ img#Github:hover,img#Linkedin:hover,img#Instagram:hover{
     scrollbar-color: transparent;
 }
 
-#iframe2{
+#iframe2, #iframe3, #iframe4 {
     display:none;
     scrollbar-width:none;
     scrollbar-color: transparent;
+    margin-top:280px;
+    margin-left:840px;
+    position: absolute;   
+    transform: translate(-50%, -50%);
+    width: 920px; 
+    height: 700px;
+    border: grey;
+    background:white;
+    border-radius:10px;
 }
 
 div#rbc{
         position: absolute;
-        height:246px;
+        height:175px;
         width: 252px;
         left:60px;
-        top:555px;
+        top:525px;
         padding: 20px;
         border-radius: 10px;
         gap: 22px;
@@ -208,7 +217,7 @@ div#rgc{
     top:400px;
     left:50px;
     width:311px;
-    height:455px;
+    height:350px;
     background: white;
     align-items: center;
     border-radius:15px;
@@ -238,7 +247,7 @@ div#rgc{
         display: none;
     }
 
-    div.Lcolumn{
+    div.LColumn{
        position:unset;
        display:flex;
        flex-direction:inherit;
@@ -258,17 +267,19 @@ div#rgc{
         flex-shrink: 1;
         align-self: center;
         margin-top:-80px;
+        height:390px
     }
 
     div#rbc{
+        height:180px;
         position:unset;
         display: flex;
         flex-grow: 1;
         flex-direction:column;
         flex-shrink: 1;
         align-items: center;
-        margin-top:-295px;
-        }
+        margin-top:-240px;
+    }
 
     img#Profile{
         position:unset;  
@@ -282,30 +293,35 @@ div#rgc{
         position:unset;
         flex-grow:1;
         flex-shrink:1;
-        margin-top:-370px;
+        margin-top:-300px;
     }
 
     div.contacts{
         position:unset;
         flex-grow:1;
         flex-shrink:1;
-        margin-top:-225px;
+        margin-top:-10px;
     }
 
-    #iframe2{
+    #iframe2, #iframe3, #iframe4{
         display:flex;
         flex-grow:1;
         flex-shrink: 1;
         flex-flow: column;
-        height:1900px;
         width:400px;
-        margin-top:1000px;
         border: grey;
         background:white;
         border-radius:10px;
         z-index:2;
-
+        position: static;
+        transform: none;
+        margin-left: auto;
+        margin-right: auto;
     }
+    
+    #iframe2 { height: 2170px; margin-top: 50px; }
+    #iframe3 { height: 755px; margin-top: 50px; }
+    #iframe4 { height: 400px; margin-top: 50px; }
 
     #iframe{
         display:flex;
@@ -313,12 +329,15 @@ div#rgc{
         flex-flow: column;
         height:870px;
         width:400px;
-        margin-top:500px;
-        margin-left:200;
+        margin-top:55px;
+        margin-left: auto;
+        margin-right: auto;
         border: grey;
         background:white;
         border-radius:10px;
         z-index:2;
+        position: static;
+        transform: none;
     }
 
     .iframe-container{
@@ -326,6 +345,6 @@ div#rgc{
         flex-direction: column;
         flex-grow: 1;
         flex-shrink:1;
-        -ms-flex-item-align: center;
+        align-items: center;
     }
 }
